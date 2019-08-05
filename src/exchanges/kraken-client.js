@@ -1,5 +1,5 @@
 const winston = require("winston");
-const Decimal = require("decimal.js");
+const Decimal = require("decimal.js").default;
 const BasicClient = require("../basic-client");
 const Ticker = require("../ticker");
 const Trade = require("../trade");
